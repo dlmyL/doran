@@ -9,18 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>doran-services</artifactId>
+    <artifactId>doran-statistics</artifactId>
     <packaging>pom</packaging>
-
     <modules>
-        <module>doran-account-service</module>
-        <module>doran-traffic-service</module>
-        <module>doran-link-services</module>
-        <module>doran-goods-service</module>
-        <module>doran-order-service</module>
-        <module>doran-payment-service</module>
-        <module>doran-push-service</module>
-        <module>doran-afs-service</module>
+        <module>doran-user-data-statistic</module>
+        <module>doran-message-push-statistic</module>
     </modules>
 
     <properties>

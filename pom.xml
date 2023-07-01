@@ -14,6 +14,8 @@
         <module>doran-gateway</module>
         <module>doran-services</module>
         <module>doran-starters</module>
+        <module>doran-statistics</module>
+        <module>doran-streams</module>
     </modules>
 
     <properties>

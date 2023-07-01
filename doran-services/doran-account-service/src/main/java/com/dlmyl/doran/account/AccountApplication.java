@@ -1,7 +1,7 @@
 package com.dlmyl.doran.account;
 
 /**
- * AccountApplication
+ * 用户服务
  *
  * @author dlmyL
  * @date 2023-06-30

@@ -14,6 +14,11 @@
     <modules>
         <module>doran-gateway-spring-boot-starter</module>
         <module>doran-gray-spring-boot-starter</module>
+        <module>doran-common-spring-boot-starter</module>
+        <module>doran-xxljob-spring-boot-starter</module>
+        <module>doran-web-spring-boot-starter</module>
+        <module>doran-swagger-spring-boot-starter</module>
+        <module>doran-log-spring-boot-starter</module>
     </modules>
 
     <properties>
