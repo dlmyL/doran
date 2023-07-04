@@ -16,7 +16,7 @@
     <modules>
         <module>doran-account-service</module>
         <module>doran-traffic-service</module>
-        <module>doran-link-services</module>
+        <module>doran-link-service</module>
         <module>doran-goods-service</module>
         <module>doran-order-service</module>
         <module>doran-payment-service</module>

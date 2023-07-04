@@ -11,24 +11,15 @@
     </parent>
 
     <artifactId>doran-afs-service</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <description>doran 售后服务</description>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-    </dependencies>
+    <modules>
+        <module>doran-afs-service-api</module>
+        <module>doran-afs-service-biz</module>
+    </modules>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+
 
 </project>

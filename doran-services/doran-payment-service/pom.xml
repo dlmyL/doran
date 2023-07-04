@@ -11,24 +11,13 @@
     </parent>
 
     <artifactId>doran-payment-service</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <description>doran 支付服务</description>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+    <modules>
+        <module>doran-payment-service-api</module>
+        <module>doran-payment-service-biz</module>
+    </modules>
 
 </project>

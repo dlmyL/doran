@@ -11,24 +11,13 @@
     </parent>
 
     <artifactId>doran-account-service</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <description>doran 用户服务</description>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+    <modules>
+        <module>doran-account-service-api</module>
+        <module>doran-account-service-biz</module>
+    </modules>
 
 </project>

@@ -11,24 +11,13 @@
     </parent>
 
     <artifactId>doran-traffic-service</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <description>doran 流量包服务</description>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+    <modules>
+        <module>doran-traffic-service-api</module>
+        <module>doran-traffic-service-biz</module>
+    </modules>
 
 </project>

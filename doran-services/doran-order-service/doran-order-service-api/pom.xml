@@ -4,20 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>doran-services</artifactId>
+        <artifactId>doran-order-service</artifactId>
         <groupId>com.dlmyl.doran</groupId>
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>doran-order-service</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>doran-order-service-api</artifactId>
+    <packaging>jar</packaging>
 
-    <description>doran 订单服务</description>
-
-    <modules>
-        <module>doran-order-service-api</module>
-        <module>doran-order-service-biz</module>
-    </modules>
+    <description>doran 订单服务 API</description>
 
 </project>

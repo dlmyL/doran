@@ -4,16 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>doran-services</artifactId>
+        <artifactId>doran-traffic-service</artifactId>
         <groupId>com.dlmyl.doran</groupId>
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>doran-link-services</artifactId>
+    <artifactId>doran-traffic-service-biz</artifactId>
     <packaging>jar</packaging>
 
-    <description>doran 短链服务</description>
+    <description>doran 流量包服务</description>
 
     <dependencies>
         <dependency>

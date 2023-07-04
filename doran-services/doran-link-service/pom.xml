@@ -10,14 +10,14 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>doran-order-service</artifactId>
+    <artifactId>doran-link-service</artifactId>
     <packaging>pom</packaging>
 
-    <description>doran 订单服务</description>
+    <description>doran 短链服务</description>
 
     <modules>
-        <module>doran-order-service-api</module>
-        <module>doran-order-service-biz</module>
+        <module>doran-link-service-api</module>
+        <module>doran-link-services-biz</module>
     </modules>
 
 </project>
