@@ -11,6 +11,7 @@
     <version>${revision}</version>
 
     <modules>
+        <module>doran-auth-center</module>
         <module>doran-gateway</module>
         <module>doran-services</module>
         <module>doran-starters</module>
